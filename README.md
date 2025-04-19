@@ -14,8 +14,7 @@ JME_AI-and-Inflation/
 ├── Data/  
 │   ├── main_experiment.csv  
 │   ├── communications_results.csv  
-│   └── appendix_data.csv  
-│  
+│   └── appendix_data.csv    
 └── Analysis/  
     ├── clean_data.py  
     ├── main_analysis.py  
