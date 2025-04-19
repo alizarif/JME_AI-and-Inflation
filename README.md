@@ -1,21 +1,13 @@
-# Replication Package: "Evidence on Inflation Expectations Formation Using Large Language Models"
+#### Replication Package: 
+## "Evidence on Inflation Expectations Formation Using Large Language Models"
+
 ### Ali Zarifhonarvar (2025)
 
-## Repository Structure
+# Repository Structure
 
-JME_AI-and-Inflation/
-├── Experiment_Code/
-│   ├── information_treatment.py
-│   ├── fed_communication_test.py
-│   └── robustness_checks.py
-├── Data/
-│   ├── main_experiment.csv
-│   ├── communications_results.csv
-│   └── appendix_data.csv
-└── Analysis/
-    ├── clean_data.py
-    ├── main_analysis.py
-    └── appendix_results.py
+JME_AI-and-Inflation/ ├── Experiment_Code/ │ ├── information_treatment.py │ ├── fed_communication_test.py │ └── robustness_checks.py ├── Data/ │ ├── main_experiment.csv │ ├── communications_results.csv │ └── appendix_data.csv └── Analysis/ ├── clean_data.py ├── main_analysis.py └── appendix_results.py
+
+# Folders Description
 
 ## Folders Description
 
