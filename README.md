@@ -1,6 +1,6 @@
 # Replication Package: 
 ## "Evidence on Inflation Expectations Formation Using Large Language Models"
-### Ali Zarifhonarvar (2025)
+### Zarifhonarvar (2025)
 
 ## Data Availability
 The complete dataset for this research is available through Harvard Dataverse at: [https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/XXXXX](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/XXXXX)
