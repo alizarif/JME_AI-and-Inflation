@@ -2,36 +2,23 @@
 ## "Evidence on Inflation Expectations Formation Using Large Language Models"
 ### Ali Zarifhonarvar (2025)
 
-## Repository Structure
+## Data Availability
+The complete dataset for this research is available through Harvard Dataverse at: [https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/XXXXX](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/XXXXX)
 
-JME_AI-and-Inflation/  
-│  
-├── Experiment_Code/  
-│   ├── information_treatment.py  
-│   ├── fed_communication_test.py  
-│   └── robustness_checks.py  
-│  
-├── Data/  
-│   ├── main_experiment.csv  
-│   ├── communications_results.csv  
-│   └── appendix_data.csv  
-│  
-└── Analysis/  
-    ├── clean_data.py  
-    ├── main_analysis.py  
-    └── appendix_results.py  
+The Harvard Dataverse repository contains all raw data files including LLM responses, experiment logs, and analysis datasets. This data is publicly accessible for research purposes under a CC0 license. When using this data, please cite the original paper and the dataset.
+
+## Repository Structure
 
 ## Folders Description
 
 ### Experiment Code
+
 - **information_treatment.py**: Persona-based experiment for short/long-run inflation expectations
 - **fed_communication_test.py**: Tests communication clarity of Federal Reserve statements
 - **robustness_checks.py**: Supplementary appendix robustness checks
-
+  
 ### Data
-- **main_experiment.csv**: Data for the primary inflation expectations experiment
-- **communications_results.csv**: Results from Fed communication testing
-- **appendix_data.csv**: Data supporting appendix analyses
+For the full raw data, please access the Harvard Dataverse repository linked above.
 
 ### Analysis
 - **clean_data.py**: Preprocessing of experimental data
