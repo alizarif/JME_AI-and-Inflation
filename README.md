@@ -2,17 +2,6 @@
 ## "Generating Inflation Expectations with Large Language Models"
 ### Zarifhonarvar (2025)
 
-## Reproducibility Notice
-
-### Random Seed Control
-- **Claude models**: Do not currently support deterministic seed parameters. [Anthropic recommends](https://github.com/anthropics/claude-code/issues/3370) setting other hyperparameters to default values for optimal reproducibility.
-- **OpenAI models**: Seed control is in beta phase for OpenAI models [Reference](https://platform.openai.com/docs/advanced-usage).
-- **EDSL framework**: The Expected Parrot framework used for persona generation and survey administration does not implement random seed control for cross-model experiments.
-
-Given these technical constraints, I have specified all available hyperparameters (temperature, top-p, max tokens) and provided comprehensive documentation in this repository to enable the best possible replication by future researchers using the same experimental framework.
-
-### Model Documentation
-Complete model cards and license documentation are included in the model cards and licenses.md. All experiments use synthetic personas and public economic information with no personally identifiable information (PII) shared with APIs.
 
 ## Data Availability
 The complete dataset for this research is available through Harvard Dataverse at: [https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/UJUFIN](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/UJUFIN)
@@ -44,11 +33,22 @@ For the full raw data, please access the Harvard Dataverse repository linked abo
 ## Installation and Setup
 
 ### System Requirements
-This experiment runs remotely via the EDSL framework and Expected Parrot infrastructure:
+This experiment runs remotely via the EDSL framework and the Expected Parrot platform:
 - **Local requirements**: Python 3.8+, 4GB RAM minimum
 - **Model access**: Experiments execute through cloud APIs (OpenAI, Anthropic) and third-party providers (DeepInfra, Together AI) via EDSL's remote cache
 - **No local GPU required**: All model inference handled remotely
 - **Expected Parrot API key**: Required for accessing the unified model endpoint
+
+
+## Random Seed Control
+- **EDSL framework**: The Expected Parrot framework used for persona generation and survey administration does not implement random seed control for cross-model experiments.
+- **Claude models**: Do not currently support deterministic seed parameters. [Anthropic recommends](https://github.com/anthropics/claude-code/issues/3370) setting other hyperparameters to default values for optimal reproducibility.
+- **OpenAI models**: Seed control is in beta phase for OpenAI models [Reference](https://platform.openai.com/docs/advanced-usage).
+
+Given these technical constraints, I have specified all available hyperparameters (temperature, top-p, max tokens) and provided comprehensive documentation in this repository to enable the best possible replication by future researchers using the same experimental framework.
+
+### Model Documentation
+Complete model cards and license documentation are included in the **model cards and licenses.md**. All experiments use synthetic personas and public economic information with no personally identifiable information (PII) shared with APIs.
 
 ### Dependencies
 Install required packages:
