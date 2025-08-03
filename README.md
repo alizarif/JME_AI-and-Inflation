@@ -1,5 +1,5 @@
 # Replication Package: 
-## "Evidence on Inflation Expectations Formation Using Large Language Models"
+## "Generating Inflation Expectations with Large Language Models"
 ### Zarifhonarvar (2025)
 
 ## Data Availability
