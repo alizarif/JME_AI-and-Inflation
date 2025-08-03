@@ -5,16 +5,14 @@
 ## Reproducibility Notice
 
 ### Random Seed Control
-Due to technical limitations across model architectures, full deterministic reproducibility is not available:
-
 - **Claude models**: Do not currently support deterministic seed parameters. [Anthropic recommends](https://github.com/anthropics/claude-code/issues/3370) setting other hyperparameters to default values for optimal reproducibility.
-- **OpenAI models**: The models used in this study were accessed during their beta phase with limited seed functionality. While OpenAI now supports [seed parameters](https://cookbook.openai.com/examples/reproducible_outputs_with_the_seed_parameter), this feature was not available during our experimental period.
+- **OpenAI models**: Seed control is in beta phase for OpenAI models [Reference](https://platform.openai.com/docs/advanced-usage).
 - **EDSL framework**: The Expected Parrot framework used for persona generation and survey administration does not implement random seed control for cross-model experiments.
 
 Given these technical constraints, I have specified all available hyperparameters (temperature, top-p, max tokens) and provided comprehensive documentation in this repository to enable the best possible replication by future researchers using the same experimental framework.
 
 ### Model Documentation
-Complete model cards and license documentation are included in the `/models` directory. All experiments use synthetic personas and public economic information with no personally identifiable information (PII) shared with APIs.
+Complete model cards and license documentation are included in the model cards and licenses.md. All experiments use synthetic personas and public economic information with no personally identifiable information (PII) shared with APIs.
 
 ## Data Availability
 The complete dataset for this research is available through Harvard Dataverse at: [https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/UJUFIN](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/UJUFIN)
@@ -46,9 +44,11 @@ For the full raw data, please access the Harvard Dataverse repository linked abo
 ## Installation and Setup
 
 ### System Requirements
-- Python 3.8+
-- 8GB RAM minimum (16GB recommended)
-- GPU optional (CPU-only instructions provided)
+This experiment runs remotely via the EDSL framework and Expected Parrot infrastructure:
+- **Local requirements**: Python 3.8+, 4GB RAM minimum
+- **Model access**: Experiments execute through cloud APIs (OpenAI, Anthropic) and third-party providers (DeepInfra, Together AI) via EDSL's remote cache
+- **No local GPU required**: All model inference handled remotely
+- **Expected Parrot API key**: Required for accessing the unified model endpoint
 
 ### Dependencies
 Install required packages:
