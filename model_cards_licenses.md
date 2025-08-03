@@ -1,6 +1,6 @@
 # Model Cards and License Information
 
-This section provides comprehensive information about model cards and licensing terms for all large language models used in this study. Researchers should consult these resources to understand legal re-use boundaries and technical specifications.
+This section provides comprehensive information about model cards and licensing terms for all large language models used in this study. 
 
 ## OpenAI Models
 
