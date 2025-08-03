@@ -1,1 +1,1 @@
-pip install edsl pandas numpy scipy statsmodels matplotlib  openpyxl python-dotenv requests tqdm 
+edsl pandas numpy scipy statsmodels matplotlib  openpyxl python-dotenv requests tqdm 
