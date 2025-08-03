@@ -1,1 +1,1 @@
-edsl pandas numpy scipy statsmodels matplotlib  openpyxl python-dotenv requests tqdm 
+edsl==0.1.58 pandas==2.2.3 numpy==1.26.4 scipy==1.13.1 statsmodels==0.14.4 matplotlib==3.8.4 openpyxl==3.1.5 python-dotenv requests==2.32.3 tqdm==4.67.1
